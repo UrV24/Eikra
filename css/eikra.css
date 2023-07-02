@@ -1,0 +1,360 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid; */
+    font-family: Roboto, sans-serif;
+}
+.header
+{
+    display: grid;
+    background: #002147;
+    grid-template-columns: 1fr 2fr;
+}
+.logo
+{
+    height: 90px;
+    background-image: url(../images/logo-light.png);
+    background-repeat: no-repeat;
+    background-position: 200px ;
+}
+.link
+{
+    height: 90px;
+    color: white;
+}
+
+li
+{
+    display: inline;
+    padding: 35px 5px;
+}
+.l1
+{
+    line-height: 90px;
+}
+ul button
+{
+    height: 35px;
+    width: 110px;
+    padding: 10px;
+    margin-left: 10px;
+    background: #fcb900;
+    color: #002147;
+    border: 2px solid #fcb900;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 1s;
+}
+button:hover
+{
+    background: #002147;
+    color: white;
+}
+/* .fa-bars
+{
+    color: white;
+    font-weight: 500;
+    margin-left: 20px;
+    display: none;
+}
+.fa-bars:hover
+{
+    color: yellow;
+} */
+.slider
+{
+    height: 700px;
+    background-image: url(../images/1-1-d.jpg);
+    color: white;
+    position: relative;
+}
+.text
+{
+    width: 800px;
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+.slider button
+{
+    height: 50px;
+    width: 150px;
+    margin: auto;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background: #002147;
+}
+.slider button:hover
+{
+    background: #442e66;
+}
+.wlc
+{
+    height: 600px;
+    padding-top: 50px;
+}
+.inner
+{
+    width: 1200px;
+    display: grid;
+    grid-template-rows: 200px 260px;
+    margin: auto;
+}
+.down
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 50px 150px;
+}
+.down1,.down2,.down3
+{
+    height: 260px;
+    width: 400px;
+}
+.up
+{
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    display: grid;
+}
+.up h1
+{
+    font-weight: 100;
+    font-size: 50px;
+    color: #002147;
+}
+.up p
+{
+    word-spacing: 2px;
+    margin-left: 20px;
+    padding: 10px;
+    color: #444444;
+}
+.cap,.user,.book
+{
+    height: 90px;
+    width: 90px;
+    font-size: 40px;
+    color: #002147;
+    background: #eeeeee;
+    text-align: center;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 90px;
+    transition: .50s;
+}
+.down1:hover .cap,.down2:hover .user,.down3:hover .book
+{
+    background: #fcb900;
+}
+.down h3
+{
+    text-align: center;
+    color: #002147;
+    line-height: 50px;
+}
+.p1,.p2,.p3
+{
+    text-align: center;
+    padding: 30px 20px;
+    color: #444444;
+}
+.courses
+{
+    height: 900px;
+    background: #002147;
+    position: relative;
+}
+.innercourses
+{
+    height: 550px;
+    width: 1150px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 550px 550px;
+    position: absolute;
+    top: 200px;
+    left: 193px;
+}
+.courses h2
+{
+    color: #fff;
+    position: absolute;
+    top: 130px;
+    left: 193px;
+}
+.left
+{
+    margin-right: 30px;
+    display: grid;
+    grid-template-rows: 275px 275px;
+}
+.img
+{
+    background-image: url(../images/15.jpg);
+    background-size: 550px;
+    background-repeat: no-repeat;
+}
+.txt
+{
+    background: #fff;
+    padding: 30px;
+    overflow: hidden;
+  
+}
+.txt h3
+{
+    color: #002147;
+    padding-bottom: 20px;
+}
+.txt p
+{
+    padding-top: 20px;
+    color: #444444
+}
+.txt i
+{
+    color: #fcb900;
+}
+.txt span
+{
+    color: #646464;
+}
+.center
+{
+    display: grid;
+    margin-right: 15px;   
+}
+.txt1,.txt2,.txt3,.txt4
+{
+    background: #fff;
+    padding: 20px;
+} 
+.courses h3
+{
+    color: #002147;
+}
+.center1,.center2
+{
+    display: grid;
+    grid-template-rows: 170px 88px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.center1
+{
+    background-image: url(../images/kids_3-410x260.jpg);
+    
+}
+.center2
+{
+    margin-top: 30px;
+    background-image: url(../images/6-410x260.jpg);
+}
+.right
+{
+    display: grid;
+    margin-left: 15px;
+}
+.right1,.right2
+{
+    display: grid;
+    grid-template-rows: 170px 88px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.right1
+{
+    background-image: url(../images/13-410x260.jpg);
+}
+.right2
+{
+    margin-top: 30px;
+    background-image: url(../images/kids_5-410x260.jpg);
+}
+.img,.img1,.img2,.img3,.img4
+{
+    position: relative;
+}
+.img:hover .price,.img1:hover .price,.img2:hover .price,.img3:hover .price,.img4:hover .price
+{
+    display: none;
+}
+.price
+{
+    height: 30px;
+    width: 70px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 30px;
+    background: #fcb900;
+    color: #fff;
+    font-weight: 200;
+}
+.upper,.upr
+{
+    height: 275px;
+    width: 0; 
+    background: rgba(252,185,0,.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .30s;
+}
+.img i
+{
+    font-size: 25px;
+    padding: 10px;
+    position: absolute;
+    top: 110px;
+    left: 250px;
+    background: #002147;
+    color: #fff;
+    border-radius: 50%;
+}
+.upr
+{
+    height: 170px;
+}
+.center i,.right i
+{
+    font-size: 25px;
+    padding: 10px;
+    background: #002147;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    transition: 1s;
+}
+
+.img:hover .upper,.img1:hover .upr,.img2:hover .upr,.img3:hover .upr,.img4:hover .upr
+{
+    width: 100%;
+}
+.txt h3:hover,.txt1 h3:hover,.txt2 h3:hover,.txt3 h3:hover,.txt4 h3:hover
+{
+    color: #fcb900;
+    transition: .50s;
+}
+.fa-link
+{
+    opacity: 0;
+    z-index: 1;
+}
+.img:hover .fa-link,.img1:hover .fa-link,.img2:hover .fa-link,.img3:hover .fa-link,.img4:hover .fa-link
+{
+    opacity: 1;
+    transition: 2s;
+}
